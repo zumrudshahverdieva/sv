@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(69, 51, 236);
+}
+.container{
+    height: 100vh;
+    border: 1px solid grey;
+    .row{
+        height: 100%;
+        .c1{
+            height: 100%;
+            background: rgb(85, 67, 253);
+            color: white;
+            h5{
+                margin: 25px;
+                color: white;
+            }
+        }
+        .cont{
+            .d1,.d2{
+                .col{
+                    display: flex !important;
+                    height: 5px;
+                    width: 35%;
+                    border-radius: 5px;
+                    margin: 20px;
+                    display: flex;
+                    .f1{
+                        background-color: red;
+                        width: 70% !important;
+                        height: 4px;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        margin: none;
+                    }
+                    .f2{
+                        width: 20% !important;
+                        height: 4px;
+                        background: grey;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                    }
+                }
+            }
+        }
+        form{
+            h4{
+                color: red;
+                margin-left: 30px;
+            }
+            input{
+                border: none;
+                height: 42px;
+                color: grey;
+                border-bottom: 1px solid black;
+                margin: 30px;
+            }
+            button{
+                background: rgb(85, 67, 253);
+                color: white;
+                border: none;
+                width: 120px;
+                border-radius: 3px;
+                height: 35px;
+                margin-left: 30px;
+            }
+        }
+        ul {
+            list-style-type: none !important;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            color: grey;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none !important;
+          }
+          
+          li a:hover {
+            color: black;
+          }
+    }
+}

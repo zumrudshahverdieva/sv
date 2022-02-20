@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #4533ec;
+}
+
+.container {
+  height: 100vh;
+  border: 1px solid grey;
+}
+
+.container .row {
+  height: 100%;
+}
+
+.container .row .c1 {
+  height: 100%;
+  background: #5543fd;
+  color: white;
+}
+
+.container .row .c1 h5 {
+  margin: 25px;
+  color: white;
+}
+
+.container .row .cont .d1 .col, .container .row .cont .d2 .col {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  height: 5px;
+  width: 35%;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+}
+
+.container .row .cont .d1 .col .f1, .container .row .cont .d2 .col .f1 {
+  background-color: red;
+  width: 70% !important;
+  height: 4px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin: none;
+}
+
+.container .row .cont .d1 .col .f2, .container .row .cont .d2 .col .f2 {
+  width: 20% !important;
+  height: 4px;
+  background: grey;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.container .row form h4 {
+  color: red;
+  margin-left: 30px;
+}
+
+.container .row form input {
+  border: none;
+  height: 42px;
+  color: grey;
+  border-bottom: 1px solid black;
+  margin: 30px;
+}
+
+.container .row form button {
+  background: #5543fd;
+  color: white;
+  border: none;
+  width: 120px;
+  border-radius: 3px;
+  height: 35px;
+  margin-left: 30px;
+}
+
+.container .row ul {
+  list-style-type: none !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container .row li {
+  float: left;
+}
+
+.container .row li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
+
+.container .row li a:hover {
+  color: black;
+}
+/*# sourceMappingURL=in.css.map */
